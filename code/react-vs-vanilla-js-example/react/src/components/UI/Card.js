@@ -3,9 +3,9 @@ import './Card.css'
 const Card = (props) => {
     const classes = 'card ' + props.className;
     return (
-        <dir className={classes}>
+        <div className={classes}>
             {props.children}
-        </dir>
+        </div>
     )
 }
 
